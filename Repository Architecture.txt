@@ -1,0 +1,12 @@
+afm-dynamic-dcf-engine/
+│
+├── README.md                 <-- Executive overview, mathematical specs & usage guide
+├── requirements.txt          <-- Clean dependency list (pandas, numpy-financial, openpyxl)
+├── main.py                   <-- Interactive CLI + preset AFM case runner
+│
+├── src/
+│   ├── __init__.py
+│   ├── dcf_engine.py         <-- Dynamic DCF, TAD, Working Capital, Fisher & MIRR engine
+│   └── excel_exporter.py     <-- Generates institutional .xlsx models with LIVE Excel formulas
+│
+└── outputs/                  <-- Auto-generated dynamic Excel valuation workbooks
