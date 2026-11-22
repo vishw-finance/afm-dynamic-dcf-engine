@@ -1,0 +1,24 @@
+==============================================================
+  ACCA AFM DYNAMIC DCF & CAPITAL APPRAISAL ENGINE
+==============================================================
+1. Run Preset Case: Apex Co (2-Year Project + Real WACC + Tax Lag)
+2. Enter Custom Project Parameters Interactively
+
+Select option (1 or 2): 1
+
+--- Master Cash Flow Schedule: Apex Co - 2-Year Production Expansion ---
+ Year  Sales_Revenue  Variable_Costs  Fixed_Costs  Operating_CF  Tax_on_Op_CF  TAD_Tax_Shield  CapEx_and_Scrap  Working_Capital  Net_Nominal_CF  Discount_Factor  Present_Value
+    0           0.00            0.00         0.00          0.00          0.00            0.00      -200,000.00       -50,000.00     -250,000.00             1.00    -250,000.00
+    1     400,000.00     -220,000.00        -0.00    180,000.00          0.00            0.00             0.00        -2,500.00      177,500.00             0.87     153,679.65
+    2     420,000.00     -242,000.00        -0.00    178,000.00    -36,000.00       10,000.00        60,000.00        52,500.00      264,500.00             0.75     198,272.15
+    3           0.00            0.00         0.00          0.00    -35,600.00       18,000.00             0.00             0.00      -17,600.00             0.65     -11,422.65
+
+--- Executive Valuation Summary ---
+Nominal Discount Rate (WACC): 15.50%
+Net Present Value (NPV):      $90,529.15
+Internal Rate of Return:      42.01%
+MIRR (ACCA Operational Life): 34.80%
+MIRR (Excel Full Horizon):    27.53%
+Board Decision:               ACCEPT
+
+Dynamic Excel model exported to: outputs/apex_co__2year_production_expansion.xlsx 
